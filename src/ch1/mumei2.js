@@ -7,3 +7,4 @@ console.log(r)
 const ar = [100,1,20,43,30,11,4]
 ar.sort((a,b)=>{return b-a})
 console.log(ar)
+
