@@ -1,7 +1,7 @@
 # React の勉強メモ
 
 いまどきの JS プログラマのための Node.js と React アプリケーション開発テクニック
-JavaScript Standard Style > Rules
+JavaScript Standard Style > Rules  
 https://standardjs.com/rules.html で JS のコーディング規約について決められている
 
 規約

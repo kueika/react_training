@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <script crossorigin src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/6.1.19/browser.min.js"></script>
+</head>
+<body>
+    <div id="root"></div>
+    <script type="text/babel">
+    const dom = <div>
+        
+        </div>
+        ReactDOM.render(dom,
+        document.getElementById('root'))
+        function PhotoText(props){
+            const url = 'img/' + props.image + '.jpeg'
+            const label = props.label
+            const BoxStyle = {
+                border: "1px solid silver",
+                margin: "8px",
+                padding: "4px"
+            }
+            return <div style={BoxStyle}>
+                    <img src={url} width="128"/>
+                    <span>{label}</span>
+                </div>
+        }
+    </script>
+</body>
+</html>
